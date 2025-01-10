@@ -1,10 +1,10 @@
 import React from 'react';
-import Ketqua from './components/componentsbai3/Bai3';
+import { Bai4 } from './components/Bai4/Bai4';
 
 function App() {
     return (
         <div>
-            <Ketqua />
+            <Bai4 />
         </div>
     );
 }
