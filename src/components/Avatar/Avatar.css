@@ -3,25 +3,28 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 20px;
+    /* Thêm khoảng cách bên trong */
+    background-color: #f9f9f9;
+    /* Thêm màu nền nhẹ */
+    border-radius: 10px;
+    /* Bo góc cho container */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Thêm bóng đổ */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .avatar {
     border: 2px solid #ddd;
-    border-radius: 8px;
+    border-radius: 50%;
+    /* Bo tròn avatar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    /* Thêm hiệu ứng chuyển đổi */
 }
 
-.avatar1 {
-    width: 300px;
-    height: auto;
-}
-
-.avatar2 {
-    width: 400px;
-    height: auto;
-}
-
-.avatar3 {
-    width: 500px;
-    height: auto;
+.avatar:hover {
+    transform: scale(1.05);
+    /* Phóng to khi hover */
 }
