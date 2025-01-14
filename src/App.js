@@ -1,10 +1,10 @@
 import React from 'react';
-import { Bai4 } from './components/Bai4/Bai4';
+import { CommentApp } from './components/Bai6/22_NguyenQuangLoc';
 
 function App() {
     return (
         <div>
-            <Bai4 />
+            <CommentApp />
         </div>
     );
 }

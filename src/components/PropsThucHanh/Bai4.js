@@ -3,7 +3,7 @@ import flower2 from '../Avatar/assets/image2.png'
 import flower3 from '../Avatar/assets/image3.png'
 import Avatar from '../Avatar/Avatar'
 
-export function Bai4() {
+function Bai4() {
     return (
         <div style={{
             display: 'flex',
@@ -16,3 +16,5 @@ export function Bai4() {
         </div>
     );
 }
+
+export default Bai4;
